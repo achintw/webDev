@@ -1,0 +1,28 @@
+- Excecution context and the 2 phases in js
+everything happens in javascript in the execution environment,
+so the entire execution happens in two phases as follows : -
+
+1. Memory allocation phase- all the variables and functions get their memory
+    allocated in the memory with undefined and the entire code  respectively. 
+2. Code execution phase - in this phase  thread execution happens and all
+    the variables get their actual values which were assigned to them and as
+    function is invoked, a new execution environment gets created in the code
+    part, and again there are two phases, memory allocation phase and code
+    execution phase. And the cycle repeats.
+
+
+
+- Hoisting and the 2 phases of js++
+1. In JS, before the code is executed, the variables get initialized to undefined.
+2. Arrow functions enact as variables and get "undefined" during the memory
+   creation phase while functions actually get run.
+3. Hoisting: Mechanism in JS where the variable declarations are moved to the
+   top of the scope before execution. Therefore it is possible to call a function
+   before initializing it.
+4. Whenever a JS program is run, a global execution block is created,
+   which comprises of 2: Memory creation and Code execution.
+5. Variable declarations are scanned and are made undefined
+6. Function declarations are scanned and are made available
+
+
+blaablaablaa
